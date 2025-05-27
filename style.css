@@ -27,7 +27,7 @@
 }
 
 .containerClaims {
-    padding: 50px 300px 50px 300px;
+    padding: 50px 270px 50px 270px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,14 +53,16 @@
 .containerMain {
     background-color: #ffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 100px 200px 100px 200px;
+    padding: 100px;
+    margin-right: 40px;
+    gap: 50px;
 }
 
 #titleMain {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0px;
     color: #000000;
@@ -70,10 +72,16 @@
 
 #textMain {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     letter-spacing: 0px;
     color: #000000;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .containerDown {
